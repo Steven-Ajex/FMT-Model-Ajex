@@ -6,8 +6,7 @@ classdef VTOLState < Simulink.IntEnumType
         Multicopter(0),
         ForwardTrans(1),
 		Fixwing(2),
-        BackwardTrans(3),
-        Stall(4)
+        BackwardTrans(3)
     end
 
     methods (Static)

@@ -21,13 +21,12 @@ FMS_PARAM_VALUE.STANDBY_OUT = single([1500 1500, zeros(1, 14)]);
 FMS_PARAM_VALUE.L1 = single(10);
 FMS_PARAM_VALUE.CRUISE_SPEED = single(3);
 FMS_PARAM_VALUE.ACCEPT_R = single(5);
-FMS_PARAM_VALUE.YAW_P = single(1.0);
 FMS_PARAM_VALUE.MAX_VEL = single(4);
-FMS_PARAM_VALUE.MAX_R = single(pi/4);
-FMS_PARAM_VALUE.AY_P = single(0.5);
+FMS_PARAM_VALUE.MAX_R = single(pi/6);
+FMS_PARAM_VALUE.ACC2RATE = single(0.5);
 
 %TODO, remove it
-% FMS_PARAM_VALUE.VEL_XY_LIM = single(5);
+FMS_PARAM_VALUE.VEL_XY_LIM = single(5);
 
 FMS_PARAM = Simulink.Parameter(FMS_PARAM_VALUE);
 FMS_PARAM.CoderInfo.StorageClass = 'ExportedGlobal';
