@@ -1,0 +1,2 @@
+time,timestamp,p_cmd,q_cmd,r_cmd,phi_cmd,theta_cmd,psi_cmd,psi_rate_cmd,x_cmd,y_cmd,z_cmd,lat_cmd,lon_cmd,alt_cmd,u_cmd,v_cmd,w_cmd,ax_cmd,ay_cmd,az_cmd,throttle_cmd,frame,reserved,cmd_mask
+0√Î,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
